@@ -10,7 +10,7 @@ dwnbtn.addEventListener("click", async ()=>{
         link.download= new Date().getTime();
         link.click();
     } catch (error) {
-        alert("Invalid Url and Unable to load the URL");
+        alert("Invalid Url or Unable to load the URL");
         
     }
 });
